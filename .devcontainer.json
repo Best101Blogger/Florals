@@ -1,0 +1,14 @@
+{
+  "name": "Jekyll Development Environment",
+  "image": "mcr.microsoft.com/vscode/devcontainers/ruby:0-3.0", // Use a Ruby image with Jekyll
+  "extensions": [
+    "rebornix.Ruby",
+    "castwide.solargraph",
+    "yzhang.markdown-all-in-one"
+  ],
+  "postCreateCommand": "gem install bundler jekyll && bundle install",
+  "forwardPorts": [4000],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
