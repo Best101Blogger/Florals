@@ -1,0 +1,3 @@
+              - name: Jekyll SEO Generator
+                uses: AlphaGit/jekyll-seo-ai-action@v1.0
+            
